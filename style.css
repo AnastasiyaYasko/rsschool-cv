@@ -16,6 +16,10 @@ html {
   scroll-behavior: smooth; 
 }
 
+.footer {
+  background-color: rgb(70, 114, 85);
+  line-height: 85px;
+}
 .container {
   max-width: 1140px;
   margin: 0 auto;
@@ -24,18 +28,18 @@ html {
 .nav-list {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
+  align-items:stretch;
   list-style: none;
   background-color: rgb(33, 95, 57);
   margin: 0;
 }
 
-.nav-link {
+.nav-link, .git-link {
   padding: 20px;
   line-height: 75px;
   text-decoration: none;
   color: rgb(49, 5, 5);
-  font-size: 24px;
+  font-size: 25px;
   transition: .3s;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-weight: bold;
@@ -75,7 +79,9 @@ vertical-align: middle;
 color:rgb(75, 39, 5);
 
 }
-header, main, footer {
-  border: 1px solid red;
-  margin: 0;
-}
+
+.rs-photo {
+  width: 100px;
+  height: auto;
+ }
+
